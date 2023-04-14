@@ -1,0 +1,3 @@
+Temp/ScriptUpdater/1277908812/534989488_GlobalBlackboard.cs => Assets/ParadoxNotion/CanvasCore/Framework/Runtime/Variables/GlobalBlackboard.cs
+Temp/ScriptUpdater/1277908812/1032515652_GraphOwnerInspector.cs => Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Inspectors/GraphOwnerInspector.cs
+Temp/ScriptUpdater/1277908812/1960831693_GraphEditor.cs => Assets/ParadoxNotion/CanvasCore/Framework/Design/Editor/Windows/GraphEditor.cs

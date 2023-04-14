@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowCanvas", "FlowCanvas.csproj", "{68cfeccb-a634-ef03-ad91-5f22dfcf24a2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParadoxNotion", "ParadoxNotion.csproj", "{93fe46b8-75e8-2321-abeb-67f8f1d9a800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68cfeccb-a634-ef03-ad91-5f22dfcf24a2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68cfeccb-a634-ef03-ad91-5f22dfcf24a2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93fe46b8-75e8-2321-abeb-67f8f1d9a800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93fe46b8-75e8-2321-abeb-67f8f1d9a800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
