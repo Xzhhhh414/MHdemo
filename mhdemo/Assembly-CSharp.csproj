@@ -36,8 +36,31 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs" />
      <Compile Include="Assets/ParadoxNotion/_Resources/FlowCanvas Resources/Example Scenes/SpaceInvaders by &apos;AndyGFX&apos;/Scripts/ParticleSystemAutoDestroy.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RotateCamera.cs" />
      <Compile Include="Assets/ParadoxNotion/_Resources/FlowCanvas Resources/Example Scenes/SpaceInvaders by &apos;AndyGFX&apos;/Scripts/ClonePrefab.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_Translate.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_New.cs" />
+     <Compile Include="Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs" />
+     <None Include="Assets/JMO Assets/Cartoon FX (legacy)/Shaders/CFX3 Multiply Color.shader" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Glow.shader" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Ubershader.shader" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc" />
+     <None Include="Assets/JMO Assets/Cartoon FX (legacy)/CartoonFX Free.txt" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/Readme Cartoon FX Remaster FREE.txt" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Texts/_Make your own text effect.txt" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_PASSES.cginc" />
+     <None Include="Assets/JMO Assets/Cartoon FX (legacy)/Shaders/CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Procedural Ring.shader" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc" />
+     <None Include="Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Distortion.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.20f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -665,9 +688,6 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -679,9 +699,6 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -701,9 +718,6 @@
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -713,14 +727,11 @@
     <Reference Include="Unity.Rider.Editor">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow">
+        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
@@ -728,15 +739,51 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
         <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+        <HintPath>/Users/yehuahua/MHdemo/mhdemo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="FlowCanvas.csproj">
-      <Project>{68cfeccb-a634-ef03-ad91-5f22dfcf24a2}</Project>
-      <Name>FlowCanvas</Name>
+    <ProjectReference Include="ToonyColorsPro.Demo.Editor.csproj">
+      <Project>{3f061619-41ed-0271-5a21-c11b5bdfcc59}</Project>
+      <Name>ToonyColorsPro.Demo.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="KinoBloom.Runtime.csproj">
+      <Project>{3710be59-9f9a-0278-6b0e-355b303ba103}</Project>
+      <Name>KinoBloom.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXREditor.csproj">
+      <Project>{5c8d03f4-7d8b-d072-3ea6-bffd868dcdd7}</Project>
+      <Name>CFXREditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRDemo.csproj">
+      <Project>{1a193088-677e-795d-92a9-f3287c03b899}</Project>
+      <Name>CFXRDemo</Name>
     </ProjectReference>
     <ProjectReference Include="ParadoxNotion.csproj">
       <Project>{93fe46b8-75e8-2321-abeb-67f8f1d9a800}</Project>
       <Name>ParadoxNotion</Name>
+    </ProjectReference>
+    <ProjectReference Include="FlowCanvas.csproj">
+      <Project>{68cfeccb-a634-ef03-ad91-5f22dfcf24a2}</Project>
+      <Name>FlowCanvas</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXR.WelcomeScreen.csproj">
+      <Project>{f93ec67b-f812-c01c-a6ae-9cfa3dda1797}</Project>
+      <Name>CFXR.WelcomeScreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="CFXRRuntime.csproj">
+      <Project>{7688912c-6216-a8ea-3c62-f9fbe92a7cbd}</Project>
+      <Name>CFXRRuntime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
