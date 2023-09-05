@@ -21885,6 +21885,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 128016891, guid: acbca367d391f37418640231267e304e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1306047262836186551, guid: acbca367d391f37418640231267e304e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -21942,11 +21946,12 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"InBattle":{"_name":"InBattle","_id":"ecef032f-437e-4b5d-b63f-b181c9d07527","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"SeekDistance":{"_value":9,"_name":"SeekDistance","_id":"defd37a3-1179-44eb-befb-4a74993303b9","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"VisionDistance":{"_value":6,"_name":"VisionDistance","_id":"565c3798-e66c-4c62-9857-80c2783226b4","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"AttackDistance":{"_value":3,"_name":"AttackDistance","_id":"58249579-fa07-4e73-9fd5-d4118f504312","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"AttackCD":{"_value":7,"_name":"AttackCD","_id":"774616e6-58c1-4531-9a3e-19bd9ac42296","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"AttackDistance":{"_value":2,"_name":"AttackDistance","_id":"58249579-fa07-4e73-9fd5-d4118f504312","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"AttackCD":{"_value":6,"_name":"AttackCD","_id":"774616e6-58c1-4531-9a3e-19bd9ac42296","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"CanAttack":{"_name":"CanAttack","_id":"1a1f3bd4-a858-41bc-8afc-438e6f498a11","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"BeHit":{"_name":"BeHit","_id":"acf8efe5-0be1-42e0-bfda-a78ac8115b61","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"LeaveBattleTime":{"_value":10,"_name":"LeaveBattleTime","_id":"ca606024-8397-402b-9c6d-cc66855dce68","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"BeHitlLastTime":{"_name":"BeHitlLastTime","_id":"14a4dc67-7630-4de8-9f16-ea74fc6c6947","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
@@ -21966,6 +21971,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1496796566}
     - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
+      propertyPath: _serializedVariables.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
       propertyPath: _serializedVariables.Array.data[0]._json
       value: '{"_value":1,"_name":"Target","_id":"bee45590-916b-472c-957b-afa1a5fa1027","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
@@ -21974,6 +21983,26 @@ PrefabInstance:
       propertyPath: _serializedVariables.Array.data[1]._json
       value: '{"_value":[1,2],"_name":"PatrolWayPoints","_id":"7a225e67-612f-4b76-a13a-62ed6f466ad5","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
+      propertyPath: _serializedVariables.Array.data[6]._json
+      value: '{"_value":2,"_name":"AttackDistance","_id":"58249579-fa07-4e73-9fd5-d4118f504312","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
+      propertyPath: _serializedVariables.Array.data[7]._json
+      value: '{"_value":6,"_name":"AttackCD","_id":"774616e6-58c1-4531-9a3e-19bd9ac42296","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
+      propertyPath: _serializedVariables.Array.data[10]._json
+      value: '{"_value":10,"_name":"LeaveBattleTime","_id":"ca606024-8397-402b-9c6d-cc66855dce68","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
+      propertyPath: _serializedVariables.Array.data[11]._json
+      value: '{"_name":"BeHitlLastTime","_id":"14a4dc67-7630-4de8-9f16-ea74fc6c6947","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
       objectReference: {fileID: 0}
     - target: {fileID: 1831790478996571919, guid: acbca367d391f37418640231267e304e, type: 3}
