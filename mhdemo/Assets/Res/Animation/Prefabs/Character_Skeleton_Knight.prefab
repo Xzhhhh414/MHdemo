@@ -1233,6 +1233,7 @@ GameObject:
   - component: {fileID: 1831790478996571918}
   - component: {fileID: 1831790478996571919}
   - component: {fileID: 1831790478996571905}
+  - component: {fileID: 128016891}
   m_Layer: 0
   m_Name: Character_Skeleton_Knight
   m_TagString: Untagged
@@ -1336,16 +1337,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _parentBlackboard: {fileID: 0}
   _serializedBlackboard: '{"_variables":{"Target":{"_name":"Target","_id":"bee45590-916b-472c-957b-afa1a5fa1027","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
-    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"PatrolWayPoints":{"_value":[null,null,null],"_name":"PatrolWayPoints","_id":"7a225e67-612f-4b76-a13a-62ed6f466ad5","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"PatrolWayPoints":{"_value":[null,null],"_name":"PatrolWayPoints","_id":"7a225e67-612f-4b76-a13a-62ed6f466ad5","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
     UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Speed":{"_value":2.5,"_name":"Speed","_id":"ac459600-161d-4dad-a77c-b66f3edef490","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"InBattle":{"_name":"InBattle","_id":"ecef032f-437e-4b5d-b63f-b181c9d07527","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"SeekDistance":{"_value":9,"_name":"SeekDistance","_id":"defd37a3-1179-44eb-befb-4a74993303b9","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"VisionDistance":{"_value":6,"_name":"VisionDistance","_id":"565c3798-e66c-4c62-9857-80c2783226b4","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"AttackDistance":{"_value":3,"_name":"AttackDistance","_id":"58249579-fa07-4e73-9fd5-d4118f504312","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"AttackCD":{"_value":7,"_name":"AttackCD","_id":"774616e6-58c1-4531-9a3e-19bd9ac42296","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"CanAttack":{"_name":"CanAttack","_id":"1a1f3bd4-a858-41bc-8afc-438e6f498a11","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"BeHit":{"_name":"BeHit","_id":"acf8efe5-0be1-42e0-bfda-a78ac8115b61","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"LeaveBattleTime":{"_value":10,"_name":"LeaveBattleTime","_id":"ca606024-8397-402b-9c6d-cc66855dce68","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
     mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
   _objectReferences: []
   _serializedVariables:
   - _json: '{"_name":"Target","_id":"bee45590-916b-472c-957b-afa1a5fa1027","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
     _references: []
-  - _json: '{"_value":[null,null,null],"_name":"PatrolWayPoints","_id":"7a225e67-612f-4b76-a13a-62ed6f466ad5","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
+  - _json: '{"_value":[null,null],"_name":"PatrolWayPoints","_id":"7a225e67-612f-4b76-a13a-62ed6f466ad5","$type":"NodeCanvas.Framework.Variable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":2.5,"_name":"Speed","_id":"ac459600-161d-4dad-a77c-b66f3edef490","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_name":"InBattle","_id":"ecef032f-437e-4b5d-b63f-b181c9d07527","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":9,"_name":"SeekDistance","_id":"defd37a3-1179-44eb-befb-4a74993303b9","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":6,"_name":"VisionDistance","_id":"565c3798-e66c-4c62-9857-80c2783226b4","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":3,"_name":"AttackDistance","_id":"58249579-fa07-4e73-9fd5-d4118f504312","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":7,"_name":"AttackCD","_id":"774616e6-58c1-4531-9a3e-19bd9ac42296","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_name":"CanAttack","_id":"1a1f3bd4-a858-41bc-8afc-438e6f498a11","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_name":"BeHit","_id":"acf8efe5-0be1-42e0-bfda-a78ac8115b61","$type":"NodeCanvas.Framework.Variable`1[[System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":10,"_name":"LeaveBattleTime","_id":"ca606024-8397-402b-9c6d-cc66855dce68","$type":"NodeCanvas.Framework.Variable`1[[System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
 --- !u!195 &1831790478996571905
@@ -1357,7 +1394,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 1831790478996571917}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.5
+  m_Radius: 0.25
   m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
@@ -1366,10 +1403,24 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 1.5
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!136 &128016891
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831790478996571917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  m_Radius: 0.3
+  m_Height: 1.8
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &2025231365313068475
 GameObject:
   m_ObjectHideFlags: 0
@@ -3236,7 +3287,7 @@ MeshCollider:
   m_GameObject: {fileID: 4735981050623143605}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
